@@ -112,6 +112,8 @@
     .header-logo {
         width: 200px;
         height: 65px;
+        padding-top: 10px;
+        margin-left: 10px;
     }
     
     .container-wrapper {
