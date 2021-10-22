@@ -109,6 +109,11 @@
       margin-right: 20px;
     }
     
+    .header-logo {
+        width: 200px;
+        height: 50px;
+    }
+    
     .container-wrapper {
       height:800px;
     }
