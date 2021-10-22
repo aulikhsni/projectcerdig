@@ -76,7 +76,7 @@ a {
 
 .top-wrapper {
     padding: 80px 0 120px 0;
-    background-image: url(css/inibackground.png);
+    background-image: url(inibackground.png);
     height: 450px;
     background-size: cover;
     text-align: center;
@@ -116,7 +116,7 @@ a {
     box-sizing: border-box;
     margin: 0;
     font-family: "Lucida Grande";
-    background-image: url(css/backdrop0.png);
+    background-image: url(backdrop0.png);
     background-size: cover;
     text-align: center;
     color: black;
