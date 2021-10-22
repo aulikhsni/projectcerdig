@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+  
+.clear {
+    clear: left;
+}
+
+.container-header {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+    margin-left: -35px;
+}
+
+.header-logo {
+    width: 300px;
+    height: 65px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-right a {
+    line-height: 75px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+  
+.container-wrapper {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 80px 0 120px 0;
+    background-image: url(css/inibackground.png);
+    height: 450px;
+    background-size: cover;
+    text-align: center;
+}
+  
+.top-wrapper h1 {
+    opacity: 0.9;
+    color:rgba(75, 61, 15, 1);
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+  
+.top-wrapper h2 {
+    opacity: 0.0.9;
+    color: rgba(75, 61, 15, 1);
+    margin-bottom: 25px;
+}
+  
+.menu-awal {
+    float: left;
+    width: 25%;
+    color: rgba(19, 1, 1, 0.9);
+}
+
+.fav-dokter, .history-pesan, .paket-menarik, .konsul-dokter {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(214, 68, 11, 0.9);
+}
+
+.menu-awal p {
+    padding-bottom: 5px 0;
+}
+
+.service-wrapper {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-image: url(css/backdrop0.png);
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.service-container {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.service-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.service-heading {
+    padding-bottom: 50px;
+}
+
+.service-heading h2 {
+    font-size: 40px;
+}
+.service-group1 {
+    padding-bottom: 100px;
+}
+
+.service-sub1 {
+    float: left;
+    width: 33%;
+}
+
+.sub41 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.sub-daftar a {
+    display: block;
+}
+
+.tekan001 {
+    width: 50%;
+    background-color: white;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: "times new roman";
+    box-shadow: 10px 10px black;
+    border-radius: 3px;
+}
+
+.tekan001:hover {
+    background-color:green;
+}
+
+
+.tekan001:active {
+    box-shadow: none;
+}
+
+.baca-photo {
+  width: 60%;
+  height: 100px;
+}
+
+.service-clear {
+    clear: left;
+    margin-bottom: 20px;
+}
+
+.service-sub2 {
+    float: left;
+    width: 33%;    
+}
+
+.sub42 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.sub2-menu {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.sub2-menu span {
+    color: green;
+    font-weight: bold;
+}
+
+.resep-obat {
+    padding: 10px 3px;
+    background-color: black;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px brown;
+}
+
+.resep-obat:hover {
+    background-color: yellow;
+    transition: all 4s;
+}
+
+.sub-obat {
+    margin-top: 15px;
+}
+
+.sub-obat a {
+    display: block;
+}
+
+.sub-cekmandiri a {
+    display: block;
+}
+
+.contact-form {
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.section-title {
+    font-size: 25px;
+}
+
+.form-nama, .form-kontak, .form-komen, .contact-submit {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+  
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.container-footer {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 250px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-left {
+    float: left;
+    margin-left: -10px;
+}
+
+.footer-left img {
+    width: 125px;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  
+.footer-left a {
+    line-height: 65px;
+    padding: 0 15px;
+    color: rgba(31, 8, 23, 0.8);
+    display: block;
+    float: right;
+    transition: all 0.5s;
+}
+
+.footer-left a:hover {
+    background-color: rgba(5, 10, 19, 0.26);
+}
+
+.footer-right {
+    float: right;
+    margin-right: auto;
+}
+
+.footer-right li {
+    list-style: none;
+    padding: 3px 0;
+    color: rgb(151, 146, 146);
+}
