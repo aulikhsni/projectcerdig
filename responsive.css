@@ -1,9 +1,14 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .header-right a {
-        padding: 0 5px;
+    .header-right {
+        display: none;
     }
-    
+  
+    .menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+        
     .container-wrapper {
       height:450px;
     }
